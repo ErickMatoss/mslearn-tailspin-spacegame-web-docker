@@ -4,10 +4,9 @@
 trigger:
 - '*'
 variables:
- 
+  buildConfiguration: Release
   webRepository: web
   tag: $(Build.BuildId)
-
 
 stages:
 - stage: Build
